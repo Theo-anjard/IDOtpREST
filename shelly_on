@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Est-ce que la lumière est allumée?"
+echo "It's `curl --silent http://10.202.255.252/relay/0?turn=on |jq .ison` "
+
