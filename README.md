@@ -70,3 +70,11 @@ Il ne faut pas oublié qu'ici nous ne regardons que les trames HTTP, alors que e
 Les octets pour la totalité d'une communication sont donc beaucoup plus important.
 
 ## Parie 2 : MQTT
+
+Les scripts serons à voir dans le tag partie 2.
+
+
+
+
+
+
