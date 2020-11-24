@@ -29,5 +29,6 @@ test@202-16:~/tp_REST$ curl http://10.202.255.252/meter/0 |jq
   "total": 394
 }
 ```
+5. Les scrips ont été crée et son disponible dans ce reposiroty.
 
 
