@@ -11,5 +11,23 @@ Pour voir la conso :
 curl http://192.168.33.1/meter/0
 
 4.
+```
+test@202-16:~/tp_REST$ curl http://10.202.255.252/meter/0 |jq 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   118  100   118    0     0   6941      0 --:--:-- --:--:-- --:--:--  6941
+{
+  "power": 0,
+  "overpower": 0,
+  "is_valid": true,
+  "timestamp": 1606215926,
+  "counters": [
+    48.663,
+    48.776,
+    46.173
+  ],
+  "total": 394
+}
+```
 
 
