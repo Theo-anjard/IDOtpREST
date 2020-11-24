@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "La température est de : `curl --silent http://10.202.255.252/status |jq .temperature` "
+
