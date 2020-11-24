@@ -1,3 +1,3 @@
 #!/bin/bash
 echo "La température est de : `mosquitto_sub -h 10.202.0.107 -t 'shellies/shellyplug-s-6A6534/temperature' -C 1` "
-
+#la commande permet d'afficher la derniere temperarture du la prise. Cette fois si on fait un sub car on recois une information
